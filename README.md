@@ -1,2 +1,0 @@
-# stardoby.github.io
-Portfolio
