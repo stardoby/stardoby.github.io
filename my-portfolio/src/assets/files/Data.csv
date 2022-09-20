@@ -1,0 +1,70 @@
+Start Year,Start Month,End Year,End Month,Category,Event Name,Event Description,Learned,Major/Minor,Leaf,Grow
+2022,September,2022,December,Study Abroad,"Studying abroad in Madrid, Spain",,,Major,Small,2
+2022,July,-,-,Website,Started building my website portfolio,Learn more about how I built it in the Projects page. + link,"GitHub Pages, CSS, React, JSX",Major,Small,0.9
+2022,June,2022,August,Work,Began summer work for Stanford Humanities Center building Smartsheet system,Redesigning data entry and organization system,Smartsheet,Major,Med,1.95
+2022,June,-,-,School,Finished Junior Year at Stanford University,,,Minor,,
+2022,April,2022,June,School,Took a web development course (CS 142) at Stanford University,,MERN Stack,Major,Med,3
+2022,March ,-,-,Music,Performed Igor Stravinsky’s Rite of Spring with the Stanford Symphony Orchestra,Viola,Rite of Spring,Minor,,
+2022,January,2022,June,Work,Started working for Stanford Humanities Center as financial assistant,,Stanford's financial hierarchy,Major,Med,0.5
+2022,January,-,-,School,"Took Introduction to Human-Computer Interaction Design
+course (CS 147) at Stanford University",Recipal,Prototype,Major,Med,2.9
+2021,December,-,-,Music,Performed with La Compañia at Los Angeles The Mint,"La Compañia is a Latin Band based in Santa Monica, California.",Latin Vocals,Minor,,
+2021,September,2022,June,Work,Became business manager of Stanford Talisman A Cappella ,"Managing gigs, group attendance, constant email communication with community members","organization, persistence",Major,Large,0.5
+2021,September,-,-,Award,Published in the CESTA Research Anthology,David Rumsey Map Center and Mapping Cherokee History,Anthology Writing,Major,Small,3.5
+2021,June,2021,September,Work,Became publicity manager of Stanford Talisman A Cappella,"Received and responded to all performance and group inquiries, managed all social media (including Instagram, Facebook, Twitter, Snapchat), Designed and updated website, show flyers, posters, stickers, and merchandise, Contacted groups abroad and domestically to plan tour logistics and bookings","Canva, Weebly, Design",Major,Large,0.5
+2021,June,2022,June,Music,External Communications Chair for Stanford Symphony Orchestra,"Managing social media outreach on Instagram and Facebook, Documenting post-covid orchestra events, Encouraging community by communicating with members",Facebook Events,Major,Med,3
+2021,June,-,-,School,Finished Sophomore Year at Stanford University,Remote,Remote University,Minor,,
+2021,March ,2021,September,Work,Became intern for the Stanford Center of Spatial and Textual Analysis,"Mapping Cherokee Land with focus on the Eastern Band of Cherokees, Was challenged to learn the QGIS software to create an animation demonstrating the decline of Cherokee land in the late 19th century. Learned an assortment of skills including georeferencing, choosing coordinate reference systems, creating polygon shapefiles, and creating GIFs. ",QGIS,Major,Small,2
+2021,January,-,-,Freelance,"
+Founder of Virtual Community Board Start Up, ","""We are initiating a concept called Virtual Poster Board to consolidate and categorize enriching virtual events, especially geared towards high-school students. Students would be offered to participate in workshops, webinars, social gatherings, etc. of their choosing. To create a wide variety of accessible events, we will encourage an interactive platform by allowing students to crowdsource their own events. Most likely, we will be using a website medium to have a visually-appealing display of a poster board."" 
+1. Stanford Digital Design Challenge - Winter Finalist for Virtual Community Board (2021)","Project Management, Pitch and Pitch Design",Major,Med,2
+2020,October,2021,January,Work,Became PLEXUSS academic and music tutor,"mathematics and piano lessons, It has been a challenging yet rewarding experience supporting students virtually. I am working with K-12 students who are all in different levels of mathematics. Moreover, I am constantly finding ways to engage students by innovating my practice and building off of student learning. ",Virtual Tutoring,Major,Med,2
+2020,August,2021,January,Work,Development Fellow for the Phoenix Scholars,Working in the development branch of this non-profit that focuses on educational equity for students in California. My project focuses on launching a new website and finding ways to make it a useful student resource. ,"Weebly, Website Design",Major,Large,0.5
+2020,August,2020,November,Work,C++ Tutor for TutorMe Education,"I supported a student with a college-level introduction to programming in C++. We focused on the importance of writing code with good style, according to the expectations of UCLA. Additionally, I introduced some helpful debugging practices. Overall, this experience helped me solidify my own understanding. ",Tutoring Computer Science,Major,Med,3
+2020,June,2020,August,Work,GSE Stanford Science Summer Program Counselor,"Girls Teaching Girls to Code!,  A two-week summer program that teaches high schoolers from across the nation to code Python for the first time and apply it to a variety of scientific projects. , Section leading for an hour every morning was a great learning experience and doing it over zoom was an even greater challenge, but I am grateful for this opportunity. ",Computer Science Section Leader,Major,Large,0.9
+2020,June,-,-,Music,Stanford Talisman Alumni Choir -  Lift Ev'ry Voice and Sing,https://www.youtube.com/watch?v=o8pGp7N9bG8,Lift Ev'ry Voice and Sing,Major,Med,2.5
+2020,June,2020,December,Work,Volunteer Tutor at the Stanford High School Support Initiative,"Supporting high schoolers in underrepresented communities, Mentorship with future collegiate endeavors, Helping administrate and reinforce information",Youth Virtual Tutoring ,Major,Med,0.9
+2020,June,2020,October,Work,Private Mathematics Tutor,"Reinforcing student's learning over the summer, Helping with summer school coursework in mathematics (Algebra/Geometry), Mentorship in future collegiate endeavors",Tutoring Mathematics,Major,Small,2
+2020,June,-,-,School,Finished Freshman Year at Stanford University,,,Minor,,
+2020,April,-,-,School,Took my first Computer Science class at Stanford (CS 106A),What is code?,Computer Science ,Minor,,
+2020,March ,-,-,Event,COVID-19 Global Health Emergency,Pandemic causes everyone to be sent home early from Stanford University,Next quarter is fully remote,Major,Line,1
+2020,February,-,-,Music,Stanford Talisman 30th Anniversary Concert in Bing Concert Hall,https://www.youtube.com/watch?v=-TXk28YUZxQ,Huge Choral Performance,Major,Large,1
+2020,January,-,-,Music,Volunteered to play viola violin duet at local senior home in Palo Alto,,Love sharing music,Minor,,
+2019,December,-,-,Music,Performed with Santa Monica Choir,"Jeffe Huls, Conductor and Inna Kizler, collaborative pianist",Choral Performance,Minor,,
+2019,November,-,-,Music,"Performed Barber Symphony No. 2, California premiere of Transcend by Zhou Tian, Gershiwn's An American in Paris",,Barber is difficult,Minor,,
+2019,October,2019,December,Music,Ravenswood Music Department and Stanford Music + Mentorship Club ,Visited Ravenswood Middle School and helped with music department during school hour,,Minor,,
+2019,September,-,-,Stanford,Joined Stanford Talisman A Cappella and Stanford Symphony,"Soprano, Viola",,Minor,,
+2019,June,-,-,Graduation,Graduated Santa Monica High School,"National Hispanic Recognition, AP Scholar with Honors, 4.0 GPA, Valedictorian Candidate",,Major,Small,2
+2019,June,-,-,Award,Santa Monica High School Senior Female Student of the Year 2018-19,,Extracurriculars are important,Minor,,
+2019,May,-,-,Music,Personal Senior Graduation Recital,"Solo Viola, Piano, and Voice",,Minor,,
+2019,May,-,-,Music,"Performed Cello Suite No. 3in C Major BWVV I009
+(Transcribed for Viola) by Johann Sebastian Bach
+Prelude",Santa Monica High School Orchestra Senior Gala,Viola Solo Performance,Minor,,
+2019,April,-,-,Music,France Tour with Santa Monica Choir Program,"Notre Dame Cathedral, Church of Saint-Sulpice",Choir Performance Abroad,Minor,,
+2019,April,-,-,Music,Concerto Competition Doppler Two flutes and piano trio with Melinda Zhu and Jonathan Yan,Superior Command Performance,Piano Accompaniment,Minor,,
+2019,March ,-,-,Music,New York Tour with Santa Monica High School Chamber Ensemble,"Viola, Performed for Heritage Festival at Lincoln Center",New York,Minor,,
+2018,November,2021,September,Payroll,Payroll Clerk for Cornerstone Conservatory,"Validated hours indicated on teachers’ timesheet, Resolved errors regarding hours taught, clarified with the
+teachers, and offered advice to the staff about avoiding conflicts, Calculated final paycheck using financial information given and
+printed checks","Intuit Quickbooks, Creating New Emails, Creating Onboaring Materials",Major,Med,0.5
+2018,November,2019,April,Girl Scout Gold Award,"Bringing Music Across the Border, Fundraising for Build A Miracle","Hosted fundraising concert and raised over $1000 for the
+organization’s developing music program, Communicated with local businesses about donations, Collaborated with my community and Girl Scouts of Greater Los Angeles about contributing musical
+resources ","Fundraising, Hosting own benefit concert",Major,Small,2
+2018,September,2019,June,Music,Santa Monica High School Choir Program,1 year of singing Alto with the Choir Program,Can do both orchestra and choir in high school,Minor,,
+2018,March ,2018,April,Music,"Santa Monica High School Orchestra performed in Buenos Aires, Argentina and Montevideo Uruguay",,"Argentina, Uruguay, Teatro El Circulo",Minor,,
+2018,March ,-,-,Music,Performed with Rick Springfield with live orchestra performance,Santa Monica High School Orchestra,Jesse's Girl,Minor,,
+2018,January,-,-,Music,Performed at Laemmle Live with Santa Monica High School Chamber Ensemble,,Laemmle Live,Minor,,
+2017,April,-,-,Music,Seattle Tour with Santa Monica High School Philharmonic Orchestra,World Strides Heritage Festival,Seattle,Minor,,
+2015,December,-,-,Music,Started attending annual CODA State Orchestra,Proceeded to attend all 4 years of high school,State Orchestra,Minor,,
+2015,December,-,-,Music,Performed at Lowes Santa Monica Beach Hotel with Westside Youth Chorus,Christmas Performance with Cornerstone Music Conservatory,Youth Chorus,Minor,,
+2016,November,2019,September,Work,Office Assistant for Cornerstone Conservatory,"Greeted students, parents, and newcomers, as well as answered any inquiries they might have had, Designed and formatted flyers for special events and recital
+programs,  Updated online database, Studio Helper, for scheduling purposes, Assisted music director with various projects, Cleaned and organized supplies in the office, as well as the lobby","Customer Service, StudioHelper Software, Design, Microsoft Office",Major,Med,2
+2015,November,-,-,Music,Performs at Governor's Ball After Party with Westside Youth Chamber Ensemble,"Thirst Gala is an annual fundraising and major media event held in Beverly Hills, California each year, Meets Connor Franta, childhood YouTube crush",,Minor,,
+2015,September,2019,June,Music,Santa Monica High School Orchestra Program,4 years of playing viola with the SAMOHI Orchestra Program,,Minor,,
+2015,March ,-,-,Music,Salt Lake City Tour with Lincoln Middle School Chamber Orchestra,"Heritage Festival, the first Middle School orchestra in California, Santa Monica, to go on tour",Utah,Minor,,
+2013,August,2015,March,Music,Joined the Westside Youth Orchestra,Cornerstone Music Conservatory,Youth Orchestra,Minor,,
+2012,September,2015,March,Music,Lincoln Middle School Orchestra Program,Chamber Ensemble,Middle School Orchestra,Minor,,
+2011,November,-,-,Design,McKinley Elementary Grand Prize for Designing Disability Park,McKinley Elementary School,,Minor,,
+2010,September,2012,June,Music,Mckinley Elementary School Orchestra Program,McKinley Elementary School,Elementary School Orchestra,Minor,,
+2010,September,-,-,Music,Starts playing the VIOLA,Switched to viola because they ran out of violin rentals...,Viola,Minor,,
+2007,September,-,-,Music,Starts playing the VIOLIN,Cornerstone Music Conservatory,Violin,Minor,,
+2006,September,-,-,Music,Starts playing the PIANO,Cornerstone Music Conservatory,Piano,Minor,,

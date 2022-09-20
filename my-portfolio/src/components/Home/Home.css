@@ -1,0 +1,162 @@
+
+
+.Home-header {
+    background: rgb(212,227,252);
+    background: linear-gradient(180deg, rgba(212,227,252,1) 0%, rgba(255,255,255,1) 100%);
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans';
+    color: black;
+}
+
+.Home-text0 {
+    position: absolute;
+    text-align: start;
+    top: 20vh; left: 20vw;
+    font-family: 'Josefin Sans';
+    font-size: 40px;  
+}
+
+.Home-text2 {
+    position: absolute;
+    top: 30vh; left: 50vw;
+    font-family: 'Josefin Sans';
+    font-size: 40px;  
+}
+
+span {
+    opacity: 0;
+    animation: fadeIn 2.0s ease-out forwards;
+}
+
+.Home-text0 span:nth-of-type(2) {
+    animation-delay: 0.5s;
+}
+
+.Home-text0 span:nth-of-type(3) {
+    animation-delay: 1.0s;
+}
+
+.Home-text0 span:nth-of-type(4) {
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeIn{
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.Home-text2 span:nth-of-type(1) {
+    animation-delay: 2.5s;
+}
+
+.Home-text2 span:nth-of-type(2) {
+    animation-delay: 3.5s;
+}
+
+.Home-text2 span:nth-of-type(3) {
+    animation-delay: 4.5s;
+}
+
+
+.Home-blue {
+    color: #4285f4;
+}
+
+.Home-record {
+    position: absolute;
+    top: 30vh; left: 120vh;
+}
+
+.Button {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 2s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h2 {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.pos0 {
+    top: 60vh;
+    left: calc(20vw - 75px);
+}
+
+.pos1 {
+    top: 65vh;
+    left: calc(40vw - 75px);
+}
+
+.pos2 {
+    top: 60vh;
+    left: calc(60vw - 75px);
+}
+
+.pos3 {
+    top: 65vh;
+    left: calc(80vw - 75px);
+}
+
+@keyframes bounce {
+    0% {transform: translateY(0%);}
+    50% {transform: translateY(-5%);}
+    100% {transform: translateY(0%);}
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinny {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.DVD0:hover, .DVD1:hover, .DVD2:hover, .DVD3:hover {
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    animation: spin 5s ease-in infinite, 3s linear 5s infinite spinny;
+}
+
+.DVD0, .DVD1, .DVD2, .DVD3 {
+    animation-timing-function: ease-in-out;
+    animation: bounce 5.5s infinite;
+}
+
+.DVD0 {
+    animation-delay: 1s;
+}
+
+.DVD2 {
+    animation-delay: 2s;
+}
+
+.DVD3 {
+    animation-delay: 3s;
+}
