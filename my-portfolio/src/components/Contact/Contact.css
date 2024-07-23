@@ -1,9 +1,0 @@
-.Contact-header {
-    background: #dcee87;
-    background: linear-gradient(180deg, #dcee87 0%, rgba(255,255,255,1) 100%);
-    min-height: 10vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Josefin Sans';
-    color: black;
-}

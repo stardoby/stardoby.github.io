@@ -1,9 +1,0 @@
-.Projects-header {
-    background: #bfc7ff;
-    background: linear-gradient(180deg, #bfc7ff 0%, rgba(238,245,255,1) 75%, rgba(255,255,255,1) 100%);
-    min-height: 10vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Josefin Sans';
-    color: black;
-}
