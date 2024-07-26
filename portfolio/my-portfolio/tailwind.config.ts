@@ -13,6 +13,21 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        spin: {
+          '100%': { transform: 'rotate(360deg)' }
+        },
+        slow: {
+          '0%': { transform: 'rotate(-1440deg)' },
+          '100%': { transform: 'rotate(0deg)' }
+        }
+      },
+      animation: {
+        'speed-up':'spin 2s cubic-bezier(.52,.29,.83,.13), spin 0.5s linear 2s 10, slow 4s ease-out 7s'
+      },
+      transitionProperty: {
+        'transition-duration': '3s'
+      }
     },
   },
   plugins: [],

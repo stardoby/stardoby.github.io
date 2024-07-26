@@ -7,13 +7,12 @@ import fadeRect from '../assets/fade-rect.png';
 
 export default function Loading() {
   return (
-    <main className="flex bg-white min-h-screen flex-col items-center justify-center">
-      <Image
+    <main className="flex bg-white h-screen flex-col items-center justify-center">
+      <Image className='animate-speed-up'
       src={Disc}
       width={215}
       height={215}
       alt="Image of a CD with STAR written on it"
-      loading="lazy"
       />
       <Image className='absolute top-2/3'
       src={Ellipse}
@@ -49,7 +48,6 @@ export default function Loading() {
       height={342}
       alt="Faded rectangle in background"
       />
-     
     </main>
   );
 }
