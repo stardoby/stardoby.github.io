@@ -21,13 +21,15 @@ export default function Loading() {
       alt="Disc shadow"
       loading="lazy"
       />
-      <Image className='absolute top-2/3 pt-6 opacity-70'
-      src={Reflect}
-      width={215}
-      height={215}
-      alt="Reflection of disc on the ground"
-      loading="lazy"
-      />
+      <div className='absolute top-2/3 pt-6'>
+        <Image className='animate-speed-up origin-center rotate-180 opacity-20'
+        src={Disc}
+        width={215}
+        height={215}
+        alt="Reflection of disc on the ground"
+        loading="lazy"
+        />
+      </div>
       <Image className='absolute top-2/3 pt-20'
       src={fadeRect}
       width={215}

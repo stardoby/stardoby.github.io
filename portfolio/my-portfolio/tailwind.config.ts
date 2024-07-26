@@ -15,15 +15,20 @@ const config: Config = {
       },
       keyframes: {
         spin: {
-          '100%': { transform: 'rotate(360deg)' }
+          '100%': { transform: 'rotate(360deg)'}
         },
         slow: {
           '0%': { transform: 'rotate(-1440deg)' },
           '100%': { transform: 'rotate(0deg)' }
+        },
+        slowReflect: {
+          '0': { transform: 'rotate(1620deg)' },
+          '100%': { transform: 'rotate(0deg)' }
         }
       },
       animation: {
-        'speed-up':'spin 2s cubic-bezier(.52,.29,.83,.13), spin 0.5s linear 2s 10, slow 4s ease-out 7s'
+        'speed-up':'spin 2s cubic-bezier(.52,.29,.83,.13), spin 0.5s linear 2s 10, slow 4s ease-out 7s',
+        'speed-reflect': 'spin 2s cubic-bezier(.52,.29,.83,.13), spin 0.5s linear 2s 10, slowReflect 4s ease-out 7s'
       },
       transitionProperty: {
         'transition-duration': '3s'
