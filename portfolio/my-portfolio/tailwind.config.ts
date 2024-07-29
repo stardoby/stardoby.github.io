@@ -22,8 +22,8 @@ const config: Config = {
           '100%': { transform: 'rotate(0deg)' }
         },
         slowReflect: {
-          '0': { transform: 'rotate(1620deg)' },
-          '100%': { transform: 'rotate(0deg)' }
+          '0%': { transform: 'rotate(1440deg)' },
+          '100%': { transform: 'rotate(-180deg)' }
         }
       },
       animation: {

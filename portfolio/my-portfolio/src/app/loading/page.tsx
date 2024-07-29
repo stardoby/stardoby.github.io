@@ -22,7 +22,7 @@ export default function Loading() {
       loading="lazy"
       />
       <div className='absolute top-2/3 pt-6'>
-        <Image className='animate-speed-up origin-center rotate-180 opacity-20'
+        <Image className='animate-speed-reflect origin-center rotate-180 opacity-20'
         src={Disc}
         width={215}
         height={215}
