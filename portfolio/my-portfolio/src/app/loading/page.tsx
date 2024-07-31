@@ -1,11 +1,42 @@
+'use client';
 import Image from 'next/image';
 import Disc from '../assets/final-disc-2.png';
 import grayBG from '../assets/gray-bg.png';
 import Ellipse from '../assets/disc-shadow.png';
-import Reflect from '../assets/upside-down.png';
+import discLine from '../assets/disc-line-1.png';
 import fadeRect from '../assets/fade-rect.png';
+import React, {useEffect, useState} from 'react';
 
 export default function Loading() {
+
+  function changeShadow () {
+    const [showElement, setShowElement] = useState(true);
+    useEffect(() => {
+      setTimeout(function () {
+        setShowElement(false);
+      }, 1000*10);
+    }, []);
+    return (
+      <div className='absolute top-2/3 flex items-center justify-center h-3'>
+        {showElement ? 
+        (<Image id='disc-shadow' 
+        src={Ellipse}
+        width={211}
+        height={12}
+        alt="Disc shadow"
+        />) :
+        (<Image id='disc-line'
+          src={discLine}
+          width={211}
+          height={5}
+          alt="Disc line"
+          />)
+        }
+      </div> 
+    );
+  }
+
+
   return (
     <main className="flex bg-white h-screen flex-col items-center justify-center">
       <Image className='animate-speed-up'
@@ -14,20 +45,13 @@ export default function Loading() {
       height={215}
       alt="Image of a CD with STAR written on it"
       />
-      <Image className='absolute top-2/3'
-      src={Ellipse}
-      width={211}
-      height={12}
-      alt="Disc shadow"
-      loading="lazy"
-      />
+      {changeShadow()}
       <div className='absolute top-2/3 pt-6'>
         <Image className='animate-speed-reflect origin-center rotate-180 opacity-20'
         src={Disc}
         width={215}
         height={215}
         alt="Reflection of disc on the ground"
-        loading="lazy"
         />
       </div>
       <Image className='absolute top-2/3 pt-20'

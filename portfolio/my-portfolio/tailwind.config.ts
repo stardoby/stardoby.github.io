@@ -22,7 +22,7 @@ const config: Config = {
           '100%': { transform: 'rotate(0deg)' }
         },
         slowReflect: {
-          '0%': { transform: 'rotate(1440deg)' },
+          '0%': { transform: 'rotate(1400deg)' },
           '100%': { transform: 'rotate(-180deg)' }
         }
       },
