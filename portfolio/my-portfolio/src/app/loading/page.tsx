@@ -36,9 +36,23 @@ export default function Loading() {
     );
   }
 
+  function slideDisc () {
+    /*const [showSlide, setShowSlide] = useState(false);
+    useEffect(() => {
+      setTimeout(function () {
+        setShowSlide(true);
+      }, 1000*10);
+    }, []);*/
+    return (
+      <div className='flex flex-col gap-2.5 border-2 -translate-x-2/4 -translate-y-2/4 absolute top-2/3 left-2/4 h-2/4 w-2/4 bg-white'>
+        <div className='bg-white h-2/4 w-full border-2 inline-flex'></div>
+        <div className='bg-white h-2/4 w-full border-2 inline-flex'></div>
+      </div>
+    );
+  }
 
   return (
-    <main className="flex bg-white h-screen flex-col items-center justify-center">
+    <main className='flex bg-white h-screen flex-col items-center justify-center'>
       <Image className='animate-speed-up'
       src={Disc}
       width={215}
@@ -46,6 +60,7 @@ export default function Loading() {
       alt="Image of a CD with STAR written on it"
       />
       {changeShadow()}
+      {slideDisc()}
       <div className='absolute top-2/3 pt-6'>
         <Image className='animate-speed-reflect origin-center rotate-180 opacity-20'
         src={Disc}
