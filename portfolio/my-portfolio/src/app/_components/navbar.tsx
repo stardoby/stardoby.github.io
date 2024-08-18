@@ -18,7 +18,7 @@ export default function NavBar() {
     }
 
     return (
-        <div className="w-screen h-fit flex flex-row justify-between py-7 px-14">
+        <div className="fixed top-0 w-screen h-fit flex flex-row justify-between py-7 px-14">
             <div>{<Image id='hamburger' 
             src={Hamburger} 
             width={41} 
