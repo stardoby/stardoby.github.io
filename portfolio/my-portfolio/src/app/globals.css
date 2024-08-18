@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face { font-family: Nintendo; src: url('./assets/fonts/nintendo-font.otf'); } 
+@font-face { font-family: Nintendo; font-weight: bold; src: url('./assets/fonts/nintendo-font-bold.otf');}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
