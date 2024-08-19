@@ -11,9 +11,18 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+h1 {
+  font-family: Nintendo;
+  font-size: 64px;
+}
+
+h2 {
+  font-family:Nintendo;
+}
+
 h4 {
   font-family: Nintendo;
-  font-size: 20px;
+  font-size: 24px;
   color: #B1BCCA;
   opacity: 0.80;
 }
