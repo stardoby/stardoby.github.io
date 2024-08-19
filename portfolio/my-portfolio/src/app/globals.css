@@ -11,6 +11,18 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+h4 {
+  font-family: Nintendo;
+  font-size: 20px;
+  color: #B1BCCA;
+  opacity: 0.80;
+}
+
+p {
+  font-family: Nintendo;
+  font-size: 14px;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

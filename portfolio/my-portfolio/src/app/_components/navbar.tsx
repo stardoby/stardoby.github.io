@@ -18,7 +18,7 @@ export default function NavBar() {
     }
 
     return (
-        <div className="fixed top-0 w-screen h-fit bg-white-gradient flex flex-row justify-between pt-7 pb-12 px-14">
+        <div className="fixed z-20 top-0 w-screen h-fit bg-white-gradient flex flex-row justify-between pt-7 pb-12 px-14">
             <div>{<Image id='hamburger' 
             src={Hamburger} 
             width={41} 
