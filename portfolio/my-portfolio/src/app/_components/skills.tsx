@@ -8,7 +8,7 @@ import PenIcon from '../assets/pen-dark.png';
 export default function SkillsPage() {
     return(
         <div id="home-page-2" className='w-screen h-screen relative pt-10'>
-            <div className='absolute flex w-screen h-screen justify-center align-center'><Image id='big-stroke' width={1400} height={557} src={BigStroke} alt="long colorful stroke"></Image></div>
+            <div id='big-stroke' className='absolute flex w-screen h-screen justify-center align-center'><Image id='big-stroke' width={1400} height={557} src={BigStroke} alt="long colorful stroke"></Image></div>
             <div id='skills-container' className='absolute flex w-screen h-screen justify-center items-center align-center'> 
                 <div id='skills' className='flex flex-row w-fit h-fit gap-12 items-start justify-center '>
                     <div id='skill-1' className='flex flex-col  gap-5 w-3/12 py-5 px-8 bg-super-light rounded-lg shadow-md'>
