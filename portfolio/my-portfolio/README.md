@@ -25,6 +25,10 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 Use this trick to draw stroke animation on homepage
 [stroke animation](https://css-tricks.com/svg-line-animation-works/)
 
+Here is some info on creating carousels from scratch or library
+[carousel information](https://browsee.io/blog/creating-a-carousel-in-reactjs/)
+[custom vertical 3D carousel example](https://codesandbox.io/p/sandbox/react-vertical-carousel-rwop7?file=%2Fsrc%2FVerticalCarousel.js)
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
