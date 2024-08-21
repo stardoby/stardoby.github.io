@@ -14,6 +14,22 @@ import Seperator from './assets/page-separator.png';
 import PageTwo from './_components/skills';
 
 export default function Home() {
+
+  function returnBackground() {
+    return (
+    <div>
+      <div className='flex justify-start'><Image id="thin-star" src={ThinStar} width={300} alt='Star written in thin font'></Image></div>
+        <div className='flex justify-center'><Image id="thin-star" src={ThinStar} width={300} alt='Star written in thin font'></Image></div>
+        <div className='flex justify-end'><Image id="thin-star" src={ThinStar} width={300} alt='Star written in thin font'></Image></div>
+        <div className='flex justify-center'><Image id="thin-star" src={ThinStar} width={300} alt='Star written in thin font'></Image></div>
+    </div>);
+  }
+
+  function returnMultiple() {
+    for (let i = 0; i < 3; i++) {
+      return returnBackground();
+    }
+  }
   
   return (
    <main><NavBar></NavBar>
@@ -34,17 +50,20 @@ export default function Home() {
         <div className='absolute top-1/2 right-1/2 mt-64 mr-24'><h4>teacher</h4></div>
         <div className='absolute top-1/2 right-1/2 -mr-10 mt-56 '><h4>musician</h4></div>
       </div>
-      <div id="name-title" className=' h-full w-3/6 flex flex-col items-center justify-center gap-14'>
-      <div id="name-container" className='w-full flex flex-col'>
-        <div className='flex justify-center'><Image id="thin-star" src={ThinStar} alt='Star written in thin font'></Image></div>
-        <div><h1 className='text-gray-1 text-center'>Star Doby</h1></div>
-      </div>
-      <div id="creative-title" className='flex flex-col gap-5 w-full'>
-        <div><h2 className='w-full text-gray-1 text-center text-3xl'>Creative in more ways than one</h2></div>
-        <div id='reflection-title' className='flex flex-col w-full relative'>
-          <div className='w-full'><h2 className='bottom-0 text-gray-1 text-center text-3xl rotate-180'>Creative in more ways than one</h2></div>
-          <div className='absolute bottom-0 pb-2 z-10 w-full bg-reflect-gradient text-3xl text-transparent'>C</div>
-        </div>
+      <div id="right-container" className=' h-full w-3/6 flex flex-col justify-start pt-4'>
+        <div id="right-background" className='w-full h-full flex flex-col relative'>
+          <div id="background-names">{returnMultiple()}</div>
+          <div id='name-title' className='absolute flex flex-col gap-8 bg-white inset-0 m-auto h-fit py-8 px-8 w-full shadow-lg'>
+            <div><h1 className='text-gray-1 text-center'>Star Doby</h1></div>
+            <div id="creative-title" className='flex flex-col gap-2 w-full'>
+              <div><h2 className='w-full text-gray-1 text-center text-3xl'>Creative in more ways than one</h2></div>
+              <div id='reflection-title' className='flex flex-col w-full relative'>
+                <div className='w-full'><h2 className='bottom-0 text-gray-1 text-center text-3xl rotate-180'>Creative in more ways than one</h2></div>
+                <div className='absolute bottom-0 pb-2 z-10 w-full bg-reflect-gradient text-3xl text-transparent'>C</div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
    </div>

@@ -15,7 +15,7 @@ export default function SkillsPage() {
                         <div className="w-full h-1/3 py-2 px-8 flex justify-center align-center"><Image id='dark-pen-icon' src={PenIcon} height={120} width={120} alt='dark design pen icon'></Image></div>
                         <div className='flex flex-col gap-2.5 w-full'>
                             <div><h3>UI/UX Design</h3></div>
-                            <div><h5>Figma is my forté! I love thinking about and implementing accessible design practices.<span className='text-transparent'>Extra text to fill</span></h5></div>
+                            <div><h5>Figma is my forté! I love thinking about and implementing accessible design practices.<span className='text-transparent'>Extra texttt</span></h5></div>
                         </div>
                     </div>
                     <div id='skill-2' className='flex flex-col gap-5 w-3/12  py-5 px-8 bg-super-light rounded-lg shadow-md'>
