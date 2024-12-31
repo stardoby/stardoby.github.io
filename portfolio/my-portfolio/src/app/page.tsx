@@ -10,11 +10,13 @@ import Eighths from "./assets/eighth-notes.png";
 import PenIcon from "./assets/pen-icon.png";
 import Seperator from "./assets/page-separator.png";
 import PageTwo from "./_components/skills";
+import NewHome from "./_components/new-home";
 
 export default function Home() {
   return (
     <main>
       <NavBar></NavBar>
+      <div>{NewHome()}</div>
       <div id="home-page-1" className="flex flex-row w-screen h-screen">
         <div id="hero-container" className="min-h-full w-3/6 relative">
           <div className="absolute inset-0 m-auto z-20 w-fit h-fit">
