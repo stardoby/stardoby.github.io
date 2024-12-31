@@ -23,7 +23,7 @@ export default function NewHome() {
                 alt="Quarter of circle with purple outline"
                 ></Image>
             </div>
-            <div className="absolute bottom-0 right-0 z-40 flex flex-row items-center">
+            <div className="absolute bottom-0 right-0 z-40 flex flex-row items-center ">
                 <Image
                     id="purple-half-circle"
                     src={PurpleHalf}
@@ -52,7 +52,7 @@ export default function NewHome() {
                     id="start-button"
                     src={StartButton}
                     alt="Wii Start Button"
-                    className="-mt-8"
+                    className="-mt-8 hover:scale-110"
                 />
             </div>
             <div className='absolute z-10 mb-32'>
@@ -68,7 +68,7 @@ export default function NewHome() {
                 <h1 className="text-gray-1">Doby</h1>
             </div>
             <div className='absolute top-2 z-40'>
-                <div id="circle-code-group" className='flex justify-center items-center'>
+                <div id="circle-code-group" className='flex justify-center items-center animate-hover-bounce'>
                     <Image
                         id="small-blue-1"
                         src={SmallBlue}
@@ -83,13 +83,12 @@ export default function NewHome() {
                     />
                 </div>
             </div>
-            <div className='absolute flex flex-row top-16 z-40 space-x-48'>
-                <div id="circle-pen-group" className='flex justify-center items-center'>
+            <div className='absolute flex flex-row top-16 space-x-48 z-40'>
+                <div id="circle-pen-group" className='flex justify-center w-fit h-fit items-center animate-hover-bounce'>
                     <Image
                         id="small-blue-2"
                         src={SmallBlue}
                         alt="Music note bubble"
-                        
                     />
                     <Image
                         id="pen-icon-2"
@@ -98,7 +97,7 @@ export default function NewHome() {
                         className='absolute'
                     />
                 </div>
-                <div id="circle-educ-group" className='flex justify-center items-center'>
+                <div id="circle-educ-group" className='flex  justify-center items-center animate-hover-bounce'>
                     <Image
                         id="small-blue-3"
                         src={SmallBlue}
@@ -114,7 +113,7 @@ export default function NewHome() {
                 </div>
             </div>
             <div className='absolute flex flex-row top-44 z-40 space-x-96'>
-                <div id="circle-alto-group" className='flex justify-center items-center'>
+                <div id="circle-alto-group" className='flex justify-center items-center animate-hover-bounce'>
                     <Image
                         id="small-blue-4"
                         src={SmallBlue}
@@ -128,7 +127,7 @@ export default function NewHome() {
                         className='absolute'
                     />
                 </div>
-                <div id="circle-note-group" className='flex justify-center items-center'>
+                <div id="circle-note-group" className='flex justify-center items-center animate-hover-bounce'>
                     <Image
                         id="small-blue-5"
                         src={SmallBlue}
