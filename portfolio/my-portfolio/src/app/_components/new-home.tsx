@@ -7,6 +7,11 @@ import Portrait from "../assets/portrait.png";
 import StartButton from "../assets/start-button.png";
 import LightPurple from "../assets/purple-ellipse-lt.png";
 import SmallBlue from "../assets/small-blue-circle.png";
+import CodeIcon from "../assets/code-icon.png";
+import PenIcon from "../assets/pen-icon.png";
+import EducIcon from "../assets/educ-icon.png";
+import AltoIcon from "../assets/alto-icon.png";
+import NoteIcon from "../assets/note-icon.png";
 
 export default function NewHome() {
     return (
@@ -31,8 +36,11 @@ export default function NewHome() {
                     alt="Half of circle with blue outline"
                 />
             </div>
-            <div className="absolute w-fit flex flex-row -left-1 top-1/2 mt-16 z-10 tracking-wide whitespace-nowrap">
+            <div className="absolute w-fit flex flex-col -left-1 top-1/2 mt-16 z-10 tracking-wide whitespace-nowrap">
                 <h4>developer designer creative musician gamer teacher developer designer singer musician gamer educator developer</h4>
+                <h4 className='opacity-55'>developer designer creative musician gamer teacher developer designer singer musician gamer educator developer</h4>
+                <h4 className='opacity-25'>developer designer creative musician gamer teacher developer designer singer musician gamer educator developer</h4>
+                <h4 className='opacity-15'>developer designer creative musician gamer teacher developer designer singer musician gamer educator developer</h4>
             </div>
             <div className='flex flex-col items-center z-40'>
                 <Image 
@@ -55,40 +63,85 @@ export default function NewHome() {
                     className='opacity-30'
                 />
             </div>
-            <div className='absolute flex flex-row space-x-80 ml-8'>
+            <div id="star-title-name" className='absolute flex flex-row space-x-80 ml-8'>
                 <h1 className="text-gray-1">Star</h1>
                 <h1 className="text-gray-1">Doby</h1>
             </div>
             <div className='absolute top-2 z-40'>
-                <Image
-                    id="small-blue-1"
-                    src={SmallBlue}
-                    alt="Music note bubble"
-                />
+                <div id="circle-code-group" className='flex justify-center items-center'>
+                    <Image
+                        id="small-blue-1"
+                        src={SmallBlue}
+                        alt="Music note bubble"
+                        
+                    />
+                    <Image
+                        id="code-icon-2"
+                        src={CodeIcon}
+                        alt="Code icon"
+                        className='absolute'
+                    />
+                </div>
             </div>
             <div className='absolute flex flex-row top-16 z-40 space-x-48'>
-                <Image
-                    id="small-blue-2"
-                    src={SmallBlue}
-                    alt="Music note bubble"
-                />
-                <Image
-                    id="small-blue-3"
-                    src={SmallBlue}
-                    alt="Music note bubble"
-                />
+                <div id="circle-pen-group" className='flex justify-center items-center'>
+                    <Image
+                        id="small-blue-2"
+                        src={SmallBlue}
+                        alt="Music note bubble"
+                        
+                    />
+                    <Image
+                        id="pen-icon-2"
+                        src={PenIcon}
+                        alt="Pen icon"
+                        className='absolute'
+                    />
+                </div>
+                <div id="circle-educ-group" className='flex justify-center items-center'>
+                    <Image
+                        id="small-blue-3"
+                        src={SmallBlue}
+                        alt="Music note bubble"
+                        
+                    />
+                    <Image
+                        id="educ-icon-2"
+                        src={EducIcon}
+                        alt="Education icon"
+                        className='absolute scale-85'
+                    />
+                </div>
             </div>
             <div className='absolute flex flex-row top-44 z-40 space-x-96'>
-                <Image
-                    id="small-blue-2"
-                    src={SmallBlue}
-                    alt="Music note bubble"
-                />
-                <Image
-                    id="small-blue-3"
-                    src={SmallBlue}
-                    alt="Music note bubble"
-                />
+                <div id="circle-alto-group" className='flex justify-center items-center'>
+                    <Image
+                        id="small-blue-4"
+                        src={SmallBlue}
+                        alt="Music note bubble"
+                        
+                    />
+                    <Image
+                        id="alto-icon-2"
+                        src={AltoIcon}
+                        alt="Alto Clef icon"
+                        className='absolute'
+                    />
+                </div>
+                <div id="circle-note-group" className='flex justify-center items-center'>
+                    <Image
+                        id="small-blue-5"
+                        src={SmallBlue}
+                        alt="Music note bubble"
+                        
+                    />
+                    <Image
+                        id="note-icon-2"
+                        src={NoteIcon}
+                        alt="Music note icon"
+                        className='absolute'
+                    />
+                </div>
             </div>
         </div>
     );

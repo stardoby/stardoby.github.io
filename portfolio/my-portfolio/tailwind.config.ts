@@ -12,6 +12,9 @@ const config: Config = {
         'white-gradient': 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 23%)',
         'reflect-gradient':'linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.66) 100%)'
       },
+      scale: {
+        '85': '.85',
+      },
       colors: {
         'gray-1':'#666666',
         'dark-gray':'#303030',
