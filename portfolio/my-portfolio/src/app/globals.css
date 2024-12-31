@@ -40,6 +40,23 @@ p {
   font-size: 14px;
 }
 
+#circle-pen-group {
+  animation-delay: 1s;
+  
+}
+
+#circle-educ-group {
+  animation-delay: 2s;
+}
+
+#circle-alto-group {
+  animation-delay: 3s;
+}
+
+#circle-note-group {
+  animation-delay: 4s;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

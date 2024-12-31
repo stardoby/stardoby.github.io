@@ -38,11 +38,17 @@ const config: Config = {
         },
         translateUp: {
           '100%': { transform: 'translateY(-120%)'}
+        },
+        hoverBounce: {
+          '0%': {transform: 'translateY(0)'},
+          '100%': {transform: 'translateY(0)'},
+          '50%': {transform: 'translateY(-10px)'}
         }
       },
       animation: {
         'speed-up':'spin 2s cubic-bezier(.52,.29,.83,.13), spin 0.5s linear 2s 10, slow 4s ease-out 7s, translateDown 3s ease-out 11s',
-        'speed-reflect': 'spin 2s cubic-bezier(.52,.29,.83,.13), spin 0.5s linear 2s 10, slowReflect 4s ease-out 7s, translateUp 3s ease-out 11s'
+        'speed-reflect': 'spin 2s cubic-bezier(.52,.29,.83,.13), spin 0.5s linear 2s 10, slowReflect 4s ease-out 7s, translateUp 3s ease-out 11s',
+        'hover-bounce': 'hoverBounce 4s infinite ease-in-out'
       },
       transitionProperty: {
         'transition-duration': '3s'
