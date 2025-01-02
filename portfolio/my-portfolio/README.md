@@ -2,16 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+You can compile first by running
+```bash
+npm build
+```
+
+To run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -21,6 +20,10 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Useful Links for Portfolio
+
+[Tailwind CSS Docs](https://tailwindcss.com/docs/)
+
+[Material UI Docs](https://mui.com/material-ui/getting-started/)
 
 Use this trick to draw stroke animation on homepage
 [stroke animation](https://css-tricks.com/svg-line-animation-works/)
