@@ -57,6 +57,14 @@ p {
   animation-delay: 4s;
 }
 
+#skill-2 {
+  transition-delay: 1s;
+}
+
+#skill-3 {
+  transition-delay: 2s;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
