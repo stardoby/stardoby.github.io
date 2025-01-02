@@ -16,14 +16,14 @@ import NoteIcon from "../assets/note-icon.png";
 export default function NewHome() {
     return (
         <div id="home-page-1" className="relative flex flex-col w-screen h-screen items-center justify-center">
-            <div className="absolute top-0 left-0 z-40">
+            <div className="absolute top-16 left-0">
                 <Image
                 id="purple-quarter-circle"
                 src={PurpleQtr}
                 alt="Quarter of circle with purple outline"
                 ></Image>
             </div>
-            <div className="absolute bottom-0 right-0 z-40 flex flex-row items-center ">
+            <div className="absolute bottom-1/4 right-0 z-40 flex flex-row items-center ">
                 <Image
                     id="purple-half-circle"
                     src={PurpleHalf}
