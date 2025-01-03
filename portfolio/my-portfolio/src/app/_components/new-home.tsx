@@ -12,6 +12,7 @@ import PenIcon from "../assets/pen-icon.png";
 import EducIcon from "../assets/educ-icon.png";
 import AltoIcon from "../assets/alto-icon.png";
 import NoteIcon from "../assets/note-icon.png";
+import Button from '@mui/material/Button';
 
 export default function NewHome() {
     return (
@@ -48,12 +49,15 @@ export default function NewHome() {
                     src={Portrait}
                     alt="Portrait of Star"
                 />
-                <Image 
-                    id="start-button"
-                    src={StartButton}
-                    alt="Wii Start Button"
-                    className="-mt-8 hover:scale-110"
-                />
+                <Button href="#home-page-2">
+                    <Image 
+                        id="start-button"
+                        src={StartButton}
+                        alt="Wii Start Button"
+                        className="-mt-8 hover:scale-110"
+                    />
+                </Button>
+                
             </div>
             <div className='absolute z-10 mb-32'>
                 <Image 
