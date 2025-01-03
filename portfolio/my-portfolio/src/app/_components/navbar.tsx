@@ -70,9 +70,9 @@ export default function NavBar() {
                 width={77} 
                 height={41} 
                 alt="sound off speaker"></Image>}</IconButton>
-                <Drawer open={openDrawer} onClose={toggleDrawer} className="absolute" sx={{width: '40%'}}>
+                <Drawer open={openDrawer} onClose={toggleDrawer} className="absolute" >
                 <List
-                    sx={{ width: '100%', bgcolor: 'background.paper' }}
+                    sx={{ width: '100%', bgcolor: 'background.paper', paddingRight: '50px', paddingLeft: '20px' }}
                     component="nav"
                     aria-labelledby="nested-list-subheader"
                     subheader={
@@ -80,7 +80,7 @@ export default function NavBar() {
                           <b>Star's Portfolio</b>
                         </ListSubheader>
                       }>
-                <ListItemButton sx={{paddingLeft: '20px', paddingRight: '150px'}}>
+                <ListItemButton href="/" sx={{paddingLeft: '20px', paddingRight: '150px'}}>
                     <ListItemIcon>
                     <HomeRoundedIcon />
                     </ListItemIcon>
