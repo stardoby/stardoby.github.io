@@ -106,7 +106,7 @@ export default function NavBar() {
                         <ListItemIcon>
                         <MenuRoundedIcon />
                         </ListItemIcon>
-                        <ListItemText primary={text} />
+                        <ListItemText primary={text} slotProps={{primary: {color:'#666666'}}} />
                     </ListItemButton>
                     ))}
                     
