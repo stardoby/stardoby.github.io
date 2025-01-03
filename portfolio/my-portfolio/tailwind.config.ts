@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'white-gradient': 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 23%)',
-        'reflect-gradient':'linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.66) 100%)'
+        'reflect-gradient':'linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.66) 100%)',
+        'sherbert':'linear-gradient(90deg, rgba(44,204,127,0.45) 0%, rgba(52,190,237,0.45) 50%, rgba(140,143,233,0.45) 100%)'
       },
       scale: {
         '85': '.85',
@@ -19,7 +20,8 @@ const config: Config = {
         'gray-1':'#666666',
         'dark-gray':'#303030',
         'gray-blue': '#B1BCCA',
-        'super-light': '#FAFAFA'
+        'super-light': '#FAFAFA',
+        'light-purple':'#8C8FE9',
       },
       keyframes: {
         spin: {
