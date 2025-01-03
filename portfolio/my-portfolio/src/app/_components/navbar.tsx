@@ -50,12 +50,6 @@ export default function NavBar() {
 
     return (
         <div className="fixed z-30 top-0 w-screen h-fit bg-white-gradient flex flex-row justify-between pt-4 pb-8 px-14">
-            
-            {/* <div>{<Image id='hamburger' 
-            src={Hamburger} 
-            width={41} 
-            height={41} 
-            alt="hamburger icon"></Image>}</div> */}
             <IconButton aria-label="hamburger" size="large" onClick={toggleDrawer}>
                 <MenuRoundedIcon sx={{ fontSize: 40 }} />
             </IconButton>
@@ -86,7 +80,7 @@ export default function NavBar() {
                     </ListItemIcon>
                     <ListItemText primary="Home" slotProps={{primary: {fontSize: '24px'}}} />
                 </ListItemButton>
-                <ListItemButton sx={{paddingLeft: '20px', paddingRight: '150px'}}>
+                <ListItemButton href="/about" sx={{paddingLeft: '20px', paddingRight: '150px'}}>
                     <ListItemIcon>
                     <Face2RoundedIcon />
                     </ListItemIcon>
