@@ -8,7 +8,6 @@ import FileDownloadRoundedIcon from '@mui/icons-material/FileDownloadRounded';
 import InstagramIcon from "../assets/Instagram.png";
 import LinkedinIcon from "../assets/Linkedin.png";
 import FullPortrait from "../assets/full-portrait.jpg";
-import resume from "../assets/2024_Dec_Resume.pdf";
 import Stack from '@mui/material/Stack';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
@@ -31,7 +30,7 @@ export default function AboutMe() {
           </Grid>
           <Grid size={6}>
             <div id="about-bio" className="flex flex-col gap-6">
-              <div className="text-5xl text-gray-1">Hello, I`&apos;`m Star!</div>
+              <div className="text-5xl text-gray-1">Hello, I'm Star!</div>
               <div className="text-lg text-gray-1">
                 Currently, Star is finishing their masters degree at Stanford
                 University in Computer Science & Human-Computer Interaction,
@@ -67,7 +66,7 @@ export default function AboutMe() {
                             alt="Linked In Icon"></Image>
                     </IconButton>
                     
-                    <Button variant="outlined" endIcon={<FileDownloadRoundedIcon sx={{ fontSize: 44 }}/>} sx={{ color:'#666666', borderColor: '#8C8FE9', fontFamily:'Nintendo', textTransform: 'lowercase' }}>
+                    <Button href="/files/2024_Dec_Resume.pdf" target="_blank" variant="outlined" endIcon={<FileDownloadRoundedIcon sx={{ fontSize: 44 }}/>} sx={{ color:'#666666', borderColor: '#8C8FE9', fontFamily:'Nintendo', textTransform: 'lowercase' }}>
                         Resumé
                     </Button>
                     
