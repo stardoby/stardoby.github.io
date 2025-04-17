@@ -48,6 +48,17 @@ p {
   font-size: 14px;
 }
 
+.highlight {
+  background-color: #AEE7CC;
+  border-radius: 90px;
+  opacity: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: 'Nintendo';
+  color: black;
+  padding: 2px;
+}
+
 
 
 @media (prefers-color-scheme: dark) {
