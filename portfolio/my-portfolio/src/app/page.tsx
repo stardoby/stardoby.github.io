@@ -7,7 +7,7 @@ import NewHome from "./_components/new-home";
 
 export default function Home() {
   return (
-    <main>
+    <main className="h-fit">
       <NavBar></NavBar>
       <div>{NewHome()}</div>
       <div className="absolute w-full top-3/4 mt-20">
@@ -18,6 +18,7 @@ export default function Home() {
         ></Image>
       </div>
       <PageTwo />
+      
     </main>
   );
 }

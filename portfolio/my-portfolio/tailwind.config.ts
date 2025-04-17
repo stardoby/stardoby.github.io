@@ -49,13 +49,17 @@ const config: Config = {
         slideDown: {
           '0%': {transform: 'translateY(-50px)', opacity: '0'},
           '100%': {transform: 'translateY(0)', opacity: '1'},
+        },
+        fadeInOut: {
+          '25%': {opacity: '0.5'},
         }
       },
       animation: {
         'speed-up':'spin 2s cubic-bezier(.52,.29,.83,.13), spin 0.5s linear 2s 10, slow 4s ease-out 7s, translateDown 3s ease-out 11s',
         'speed-reflect': 'spin 2s cubic-bezier(.52,.29,.83,.13), spin 0.5s linear 2s 10, slowReflect 4s ease-out 7s, translateUp 3s ease-out 11s',
         'hover-bounce': 'hoverBounce 4s infinite ease-in-out',
-        'slide-down': 'slideDown 1000ms linear forwards'
+        'slide-down': 'slideDown 1000ms linear forwards',
+        'fade-out': 'fadeInOut 2s ease-in-out 1 forwards'
       },
       transitionProperty: {
         'transition-duration': '3s'
