@@ -71,7 +71,7 @@ export default function NavBar() {
                     aria-labelledby="nested-list-subheader"
                     subheader={
                         <ListSubheader component="div" id="nested-list-subheader">
-                          <b>Star's Portfolio</b>
+                          <b>Star&apos;s Portfolio</b>
                         </ListSubheader>
                       }>
                 <ListItemButton href="/" sx={{paddingLeft: '20px', paddingRight: '150px'}}>
