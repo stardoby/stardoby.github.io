@@ -1,35 +1,80 @@
-'use client';
+"use client";
 import NavBar from "../../_components/navbar";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
+import Image from "next/image";
+import CuteQueue from "../../assets/cuteq-logo.png";
 
 export default function AboutMe() {
   return (
     <main>
       <NavBar></NavBar>
-      <Box sx={{ width: "100vw", height: "100vh", paddingTop: "15vh", marginBottom: "5vh"  }}>
-        <Grid container spacing={6} sx={{ height: "100%", paddingRight: "5vw", paddingLeft: "5vw" }}>
-          <Grid id="title-section" size={6}>
-          </Grid> 
-          <Grid id="first-image" size={6}>
+      <Box
+        sx={{
+          width: "100vw",
+          height: "100vh",
+          paddingTop: "15vh",
+          marginBottom: "5vh",
+        }}
+      >
+        <Grid
+          container
+          spacing={6}
+          sx={{ height: "100%", paddingRight: "5vw", paddingLeft: "5vw" }}
+        >
+          <Grid id="hero" size={6} className="bg-red">
+            <div id="title-container" className="h-1/2 flex flex-col gap-6">
+              <div id="pills" className="flex flex-row gap-2">
+                <div id="pill-1" className="bg-sky-50 py-4 px-6 rounded-full">software</div>
+                <div id="pill-2" className="bg-sky-50 py-4 px-6 rounded-full">UX Case Study</div>
+              </div>
+              <div id="proj-title" className="text-7xl" >CuteQueue: Improved Office Hours</div>
+              <div id="action-button"></div>
+            </div>
           </Grid>
-          <Grid id="first-divider" size={12}>
+          <Grid id="screen-hero" size={6} className="bg-black">
+            <div id="image"></div>
           </Grid>
-          <Grid id="second-image" size={6}>
+          <Grid id="problem-statement" size={12} className="bg-orange-50"></Grid>
+          <Grid id="objectives" size={12}>
+              <div id="objective-title"></div>
+              <div id="bullet-container"></div>
           </Grid>
-          <Grid id="the-need" size={6}>
+          <Grid id="process" size={12}>
+            <div id="process-title"></div>
+            <div id="bubble-container"></div>
           </Grid>
-          <Grid id="quote-banner" size={12}>
+          <Grid id="challenge" size={12}>
+            <div id="challenge-title"></div>
+            <div id="who-statement"></div>
+            <div id="challenge-pts"></div>
           </Grid>
-          <Grid id="the-challenge" size={12}>
+          <Grid id="research" size={12}>
+            <div id="research-title"></div>
+            <div id="observations"></div>
           </Grid>
-          <Grid id="the-solution" size={12}>
+          <Grid id="competitors" size={12}>
+            <div id="competitor-1"></div>
+            <div id="competitor-2"></div>
           </Grid>
-          <Grid id="tools-section" size={6}>
-          </Grid> 
-          <Grid id="roles-section" size={6}>
+          <Grid id="user-needs" size={12}>
+            <div id="needs-title"></div>
+            <div id="needs-pts"></div>
           </Grid>
-          <Grid id="links-more" size={12}>
+          <Grid id="features" size={12}></Grid>
+          <Grid id="indicators" size={12}></Grid>
+          <Grid id="task-flows" size={12}>
+            <div id="task-flow-1"></div>
+            <div id="task-flow-2"></div>
+          </Grid>
+          <Grid id="iterations" size={12}>
+            <div id="iteration-title"></div>
+            <div id="iteration-image"></div>
+          </Grid>
+          <Grid id="major-screens" size={12}>
+            <div id="home-screen"></div>
+            <div id="request-form"></div>
+            <div id="modals"></div>
           </Grid>
         </Grid>
       </Box>
