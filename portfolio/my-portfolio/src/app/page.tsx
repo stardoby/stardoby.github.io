@@ -8,7 +8,7 @@ import NewHome from "./_components/new-home";
 export default function Home() {
   return (
     <main className="h-fit">
-      <NavBar></NavBar>
+      <NavBar color=""></NavBar>
       <div>{NewHome()}</div>
       <div className="absolute w-full top-3/4 mt-20">
         <Image

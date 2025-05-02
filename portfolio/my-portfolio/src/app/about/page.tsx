@@ -16,7 +16,7 @@ import Image from "next/image";
 export default function AboutMe() {
   return (
     <main>
-      <NavBar></NavBar>
+      <NavBar color=""></NavBar>
       <Box
         sx={{
           width: "100vw",

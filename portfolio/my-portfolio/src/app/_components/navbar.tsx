@@ -18,7 +18,11 @@ import Drawer from '@mui/material/Drawer';
 import Image from 'next/image';
 import React, {useEffect, useState} from 'react';
 
-export default function NavBar() {
+interface Color {
+    color: string;
+}
+
+export default function NavBar(props:Color) {
 
     const [soundToggle, setSoundToggle] = useState(true);
     const [openDrawer, setOpenDrawer] = useState(false);
@@ -48,8 +52,12 @@ export default function NavBar() {
         setOpenNested(!openNested);
     };
 
+    let dependentClass = props.color == "green" ? 'bg-green-gradient' : 
+    props.color == "cmc" ? 'bg-cmc-gradient' : 
+    props.color == "burst" ? 'bg-burst-gradient' : 'bg-white-gradient';
+
     return (
-        <div className="fixed z-30 top-0 w-screen h-fit bg-white-gradient flex flex-row justify-between pt-4 pb-8 px-14">
+        <div id="nav-bar" className={`fixed z-30 top-0 w-screen h-fit ${dependentClass} flex flex-row justify-between pt-4 pb-8 px-14`}>
             <IconButton aria-label="hamburger" size="large" onClick={toggleDrawer}>
                 <MenuRoundedIcon sx={{ fontSize: 40 }} />
             </IconButton>
