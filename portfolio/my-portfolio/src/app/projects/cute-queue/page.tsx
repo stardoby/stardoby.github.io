@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
 import WiiButton from "../../assets/wii-button.png";
 import Cursor from "../../assets/Cursor.png";
+import CuteQHome from "../../assets/cuteque-home.png";
 import Image from "next/image";
 import Button from '@mui/material/Button';
 import CuteQueue from "../../assets/cuteq-logo.png";
@@ -25,7 +26,7 @@ export default function CuteQ() {
           spacing={6}
           sx={{ height: "100%", paddingRight: "5vw", paddingLeft: "5vw" }}
         >
-          <Grid id="hero" size={7} className="bg-red">
+          <Grid id="hero" size={7} className="">
             <div id="title-container" className="h-1/2 flex flex-col gap-6 pt-12 pl-12">
               <div id="pills" className="flex flex-row gap-2">
                 <div id="pill-1" className="bg-sky-50 py-4 px-6 rounded-full">Software</div>
@@ -49,8 +50,20 @@ export default function CuteQ() {
               <Image id="figma-cursor" src={Cursor} alt="Figma cursor with Star Doby on it"></Image>
             </div>
           </Grid>
-          <Grid id="screen-hero" size={5} className="bg-black">
-            <div id="image"></div>
+          <Grid id="screen-hero" size={5} className="">
+            <Image
+              id="cutequeue-home"
+              src={CuteQHome}
+              alt="Home webpage for CuteQueue"
+              className="absolute scale-[0.65] left-1/2 z-30"> 
+            </Image>
+            <Image
+              id="cutequeue-home"
+              src={CuteQHome}
+              alt="Home webpage for CuteQueue"
+              className="absolute scale-[0.65] left-1/3 top-0 ml-32 mt-8 z-20 opacity-25"> 
+            </Image>
+            
           </Grid>
           <Grid id="problem-statement" size={12} className="bg-orange-50"></Grid>
           <Grid id="objectives" size={12}>
