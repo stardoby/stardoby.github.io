@@ -5,11 +5,14 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  ], 
   theme: {
     extend: {
       backgroundImage: {
-        'white-gradient': 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 23%)',
+        'white-gradient': 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 40%)',
+        'green-gradient': 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(44, 204, 127, 0.4) 100%)',
+        'cmc-gradient': 'linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(135, 171, 63, 0.4) 100%)',
+        'burst-gradient': 'linear-gradient(0deg, rgba(255,255,255,0) 0%,rgba(33, 122, 188, 0.4) 100%)',
         'reflect-gradient':'linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.66) 100%)',
         'sherbert':'linear-gradient(90deg, rgba(44,204,127,0.45) 0%, rgba(52,190,237,0.45) 50%, rgba(140,143,233,0.45) 100%)'
       },

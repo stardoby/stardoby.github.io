@@ -2,13 +2,16 @@
 import NavBar from "../../_components/navbar";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
+import WiiButton from "../../assets/wii-button.png";
+import Cursor from "../../assets/Cursor.png";
 import Image from "next/image";
+import Button from '@mui/material/Button';
 import CuteQueue from "../../assets/cuteq-logo.png";
 
-export default function AboutMe() {
+export default function CuteQ() {
   return (
     <main>
-      <NavBar></NavBar>
+      <NavBar color="green"></NavBar>
       <Box
         sx={{
           width: "100vw",
@@ -22,17 +25,31 @@ export default function AboutMe() {
           spacing={6}
           sx={{ height: "100%", paddingRight: "5vw", paddingLeft: "5vw" }}
         >
-          <Grid id="hero" size={6} className="bg-red">
-            <div id="title-container" className="h-1/2 flex flex-col gap-6">
+          <Grid id="hero" size={7} className="bg-red">
+            <div id="title-container" className="h-1/2 flex flex-col gap-6 pt-12 pl-12">
               <div id="pills" className="flex flex-row gap-2">
-                <div id="pill-1" className="bg-sky-50 py-4 px-6 rounded-full">software</div>
+                <div id="pill-1" className="bg-sky-50 py-4 px-6 rounded-full">Software</div>
                 <div id="pill-2" className="bg-sky-50 py-4 px-6 rounded-full">UX Case Study</div>
               </div>
-              <div id="proj-title" className="text-7xl" >CuteQueue: Improved Office Hours</div>
-              <div id="action-button"></div>
+              <div id="proj-title" className="text-7xl/[1.2]" >CuteQueue: Improved Office Hours</div>
+              <div id="action-button" className="pt-6">
+                <a href="https://docs.google.com/presentation/d/1LIJww6Ob0awRWCRZLkpepNyvmm4GxHZ4CUdZkhcQdW0/edit?usp=sharing">
+                  <div className="w-fit h-fit relative">
+                    <Image
+                    id="wii-button"
+                    src={WiiButton}
+                    alt="wii styled button for prototype"
+                    ></Image>
+                    <div className="text-2xl absolute w-full text-center top-1/4">Slides</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="absolute bottom-0 pb-36 scale-75 left-1/3">
+              <Image id="figma-cursor" src={Cursor} alt="Figma cursor with Star Doby on it"></Image>
             </div>
           </Grid>
-          <Grid id="screen-hero" size={6} className="bg-black">
+          <Grid id="screen-hero" size={5} className="bg-black">
             <div id="image"></div>
           </Grid>
           <Grid id="problem-statement" size={12} className="bg-orange-50"></Grid>
