@@ -28,9 +28,11 @@ export default function NavBar(props:Color) {
     const [openDrawer, setOpenDrawer] = useState(false);
     const [openNested, setOpenNested] = useState(true);
 
-    const PAGES = ['CuteQueue', 'Burst', 'Cornerstone', 'Friends in Orbit', 
-        'How Fire Became Good', 'VCB', 'Visual Resumé', 'AI & Parkinsons'
-    ]
+    // first element is the Page title and second element is the URL version
+    const PAGES = [['CuteQueue', 'cute-queue'], ['Burst', 'burst'], 
+    ['Cornerstone', 'cmc'], ['VCB', 'vcb'], ['Amazon for Parkinsons', 'amazon'],
+        ['Data Viz', 'data'] 
+    ];
 
     function toggleSound() {
         if (soundToggle) {
@@ -38,7 +40,7 @@ export default function NavBar(props:Color) {
         } else {
             setSoundToggle(true);
         }
-    }
+    };
 
     function toggleDrawer() {
         if (!openDrawer) {
@@ -46,7 +48,7 @@ export default function NavBar(props:Color) {
         } else {
             setOpenDrawer(false);
         }
-    }
+    };
 
     const handleClick = () => {
         setOpenNested(!openNested);
@@ -103,12 +105,12 @@ export default function NavBar(props:Color) {
                 </ListItemButton>
                 <Collapse in={openNested} timeout="auto" unmountOnExit>
                     <List component="div" disablePadding>
-                    {PAGES.map((text, index) => (
-                    <ListItemButton key={text} sx={{ pl: 4 }}>
+                    {PAGES.map((array, index) => (
+                    <ListItemButton key={array[0]} sx={{ pl: 4 }} href={`projects/${array[1]}`}>
                         <ListItemIcon>
                         <MenuRoundedIcon />
                         </ListItemIcon>
-                        <ListItemText primary={text} slotProps={{primary: {color:'#666666'}}} />
+                        <ListItemText primary={array[0]} slotProps={{primary: {color:'#666666'}}} />
                     </ListItemButton>
                     ))}
                     
