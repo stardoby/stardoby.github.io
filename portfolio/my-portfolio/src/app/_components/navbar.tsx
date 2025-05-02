@@ -28,8 +28,8 @@ export default function NavBar(props:Color) {
     const [openDrawer, setOpenDrawer] = useState(false);
     const [openNested, setOpenNested] = useState(true);
 
-    const PAGES = ['CuteQueue', 'VCB', 'Visual Resumé', 'Friends in Orbit', 
-        'How Fire Became Good', 'Burst', 'Graphics', 'AI & Parkinsons'
+    const PAGES = ['CuteQueue', 'Burst', 'Cornerstone', 'Friends in Orbit', 
+        'How Fire Became Good', 'VCB', 'Visual Resumé', 'AI & Parkinsons'
     ]
 
     function toggleSound() {
