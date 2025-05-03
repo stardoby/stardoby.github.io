@@ -106,7 +106,7 @@ export default function NavBar(props:Color) {
                 <Collapse in={openNested} timeout="auto" unmountOnExit>
                     <List component="div" disablePadding>
                     {PAGES.map((array, index) => (
-                    <ListItemButton key={array[0]} sx={{ pl: 4 }} href={`projects/${array[1]}`}>
+                    <ListItemButton key={array[0]} sx={{ pl: 4 }} href={`/projects/${array[1]}`}>
                         <ListItemIcon>
                         <MenuRoundedIcon />
                         </ListItemIcon>
