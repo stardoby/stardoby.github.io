@@ -29,8 +29,8 @@ export default function CuteQ() {
           <Grid id="hero" size={7} className="">
             <div id="title-container" className="h-1/2 flex flex-col gap-6 pt-12 pl-12">
               <div id="pills" className="flex flex-row gap-2">
-                <div id="pill-1" className="bg-sky-50 py-4 px-6 rounded-full">Software</div>
-                <div id="pill-2" className="bg-sky-50 py-4 px-6 rounded-full">UX Case Study</div>
+                <div id="pill-1" className="bg-slate-100 py-4 px-6 rounded-full">Software</div>
+                <div id="pill-2" className="bg-slate-100 py-4 px-6 rounded-full">UX Case Study</div>
               </div>
               <div id="proj-title" className="text-7xl/[1.2]" >CuteQueue: Improved Office Hours</div>
               <div id="action-button" className="pt-6">
@@ -52,16 +52,16 @@ export default function CuteQ() {
           </Grid>
           <Grid id="screen-hero" size={5} className="">
             <Image
-              id="cutequeue-home"
+              id="cutequeue-home-1"
               src={CuteQHome}
               alt="Home webpage for CuteQueue"
-              className="absolute scale-[0.65] left-1/2 z-30"> 
+              className="absolute scale-[0.65] left-1/2 top-8 z-30"> 
             </Image>
             <Image
-              id="cutequeue-home"
+              id="cutequeue-home-2"
               src={CuteQHome}
               alt="Home webpage for CuteQueue"
-              className="absolute scale-[0.65] left-1/3 top-0 ml-32 mt-8 z-20 opacity-25"> 
+              className="absolute scale-[0.65] left-1/3 -top-8 ml-32 mt-8 z-20 opacity-25"> 
             </Image>
             
           </Grid>

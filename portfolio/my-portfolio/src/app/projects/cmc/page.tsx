@@ -3,7 +3,8 @@ import NavBar from "../../_components/navbar";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
 import WiiButton from "../../assets/wii-button.png";
-import Cursor from "../../assets/Cursor.png";
+import Cursor from "../../assets/cmc-cursor.svg";
+import CMCHome from "../../assets/cmc-home.png";
 import Image from "next/image";
 
 export default function CMC() {
@@ -23,11 +24,11 @@ export default function CMC() {
           spacing={6}
           sx={{ height: "100%", paddingRight: "5vw", paddingLeft: "5vw" }}
         >
-          <Grid id="hero" size={7} className="bg-red">
+          <Grid id="hero" size={7} className="">
             <div id="title-container" className="h-1/2 flex flex-col gap-6 pt-12 pl-12">
               <div id="pills" className="flex flex-row gap-2">
-                <div id="pill-1" className="bg-sky-50 py-4 px-6 rounded-full">Client</div>
-                <div id="pill-2" className="bg-sky-50 py-4 px-6 rounded-full">Website Update</div>
+                <div id="pill-1" className="bg-slate-100 py-4 px-6 rounded-full">Client</div>
+                <div id="pill-2" className="bg-slate-100 py-4 px-6 rounded-full">Website Update</div>
               </div>
               <div id="proj-title" className="text-7xl/[1.2]" >Cornerstone Music Conservatory</div>
               <div id="action-button" className="pt-6">
@@ -47,8 +48,19 @@ export default function CMC() {
               <Image id="figma-cursor" src={Cursor} alt="Figma cursor with Star Doby on it"></Image>
             </div>
           </Grid>
-          <Grid id="screen-hero" size={5} className="bg-black">
-            <div id="image"></div>
+          <Grid id="screen-hero" size={5} className="">
+            <Image
+              id="cmc-home-1"
+              src={CMCHome}
+              alt="Home webpage for Cornerstone"
+              className="absolute scale-[0.65] left-1/4 ml-24 z-30"> 
+            </Image>
+            <Image
+              id="cmc-home-2"
+              src={CMCHome}
+              alt="Home webpage for Cornerstone"
+              className="absolute scale-[0.65] left-1/4 top-0 ml-32 mt-8 z-20 opacity-25"> 
+            </Image>
           </Grid>
           <Grid id="problem-statement" size={12} className="bg-orange-50"></Grid>
           <Grid id="objectives" size={12}>
